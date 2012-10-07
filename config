@@ -1,0 +1,106 @@
+[Program]
+# Fcitx真正启动前延迟的秒数
+DelayStart=0
+# 在窗口间共享状态
+# Available Value:
+# No All PerProgram
+ShareStateAmongWindow=No
+# 默认输入法状态
+# Available Value:
+# Close Inactive Active
+DefaultInputMethodState=Close
+# 这是 Fcitx 首次启动
+# Available Value:
+# True False
+FirstRun=False
+# 使用第一个输入法作为非激活状态
+# Available Value:
+# True False
+FirstAsInactive=False
+
+[Output]
+# 数字后跟半角符号
+# Available Value:
+# True False
+HalfPuncAfterNumber=True
+# 回车键操作
+# Available Value:
+# Nothing Clean Commit
+EnterAction=Commit
+# 联想模式禁用翻页
+# Available Value:
+# True False
+RemindModeDisablePaging=True
+# 快速切换英文模式时上屏
+# Available Value:
+# True False
+SendTextWhenSwitchEng=False
+# 候选词个数
+CandidateWordNumber=9
+# 提示词库中词组
+# Available Value:
+# True False
+PhraseTips=True
+
+[Appearance]
+# 切换输入时显示输入条
+# Available Value:
+# True False
+ShowInputWindowAfterTriggering=False
+# 序号后加点
+# Available Value:
+# True False
+ShowPointAfterIndex=False
+# 显示输入速度
+# Available Value:
+# True False
+ShowInputSpeed=False
+# 显示版本
+# Available Value:
+# True False
+ShowVersion=False
+# 只有预编辑字符串时不显示输入窗口
+# Available Value:
+# True False
+HideInputWindowWhenOnlyPreeditString=False
+# 只有一个候选词时不显示输入窗口（只有预编辑字符串时不显示窗口必须选中）
+# Available Value:
+# True False
+HideInputWindowWhenOnlyOneCandidate=False
+
+[Hotkey]
+# 快捷键: 切换输入法
+TriggerKey=CTRL_SPACE
+# 启用左Ctrl + 左Shift 在输入法间切换
+# Available Value:
+# True False
+IMSwitchKey=True
+# 快捷键: 切换中英文输入
+# Available Value:
+# R_CTRL R_SHIFT L_SHIFT L_CTRL ALT_L_SHIFT ALT_R_SHIFT Disabled
+SwitchKey=L_CTRL
+# 双击中英文切换键时切换
+# Available Value:
+# True False
+DoubleSwitchKey=False
+# 输入间隔
+TimeInterval=250
+# 快捷键: 切换虚拟键盘
+VKSwitchKey=CTRL_ALT_B
+# 快捷键: 切换联想模式
+RemindSwitchKey=
+# 快捷键: 切换全角
+FullWidthSwitchKey=SHIFT_SPACE
+# 切换全角标点的快捷键
+PuncSwitchKey=ALT_SPACE
+# 快捷键: 前一页
+PrevPageKey=-
+# 快捷键: 后一页
+NextPageKey==
+# 快捷键: 选择第二第三候选词
+SecondThirdCandWordKey=SHIFT
+# 快捷键: 保存配置及输入历史
+SaveAllKey=CTRL_ALT_S
+# 快捷键: 切换嵌入预编辑字符串
+SwitchPreedit=CTRL_ALT_P
+
