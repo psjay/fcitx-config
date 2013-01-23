@@ -4,4 +4,4 @@ Just simply put it into:
 
     ~/.config/fcitx/
 
-**note**: Fcitx version is 4.2.0 or later, and with cloud pinyin module installed.
+**note**: Fcitx version should be 4.2.0 or later, and with cloud pinyin module installed.
